@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "createdAt": "2021-02-06T18:30:57.479Z",
+      "name": "Aizawa Shouta",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEj8LfvxV4pYW5JzSkM8ISHuWYV_qexCwIVIxTlOz8QCxnbGSVz6gZI2QX6vfdRS3I3GY&usqp=CAU"
+    },
+    {
+      "id": "2",
+      "createdAt": "2021-02-06T12:45:17.283Z",
+      "name": "Shoto Totoroki",
+      "avatar": "https://i.pinimg.com/originals/9b/ef/5b/9bef5bdd9c37061f8ae064b4bfe71946.jpg"
+    },
+    {
+      "id": "3",
+      "createdAt": "2021-02-06T18:56:16.684Z",
+      "name": "Bakugo Katsuki",
+      "avatar": "https://i.pinimg.com/originals/58/a1/d2/58a1d2deaff5b66778c374a9bf0f2a83.jpg"
+    },
+    {
+      "id": "4",
+      "createdAt": "2021-02-06T15:30:24.161Z",
+      "name": "Izuku Midoriya",
+      "avatar": "https://static.wikia.nocookie.net/universeconquest/images/9/9f/Deku_headshot_2.png/revision/latest?cb=20210325152110"
+    },
+    {
+      "id": "5",
+      "createdAt": "2021-02-06T20:53:27.474Z",
+      "name": "Ochaka Uraraka",
+      "avatar": "https://i.pinimg.com/originals/4b/28/6f/4b286f1979745e2a52a085f80816630b.jpg"
+    },
+    {
+      "id": "6",
+      "createdAt": "2021-02-06T14:09:07.467Z",
+      "name": "Eijiro Kirishima",
+      "avatar": "https://static.wikia.nocookie.net/b49e77d3-13fb-4644-9e03-536e46b778e9"
+    },
+    {
+      "id": "7",
+      "createdAt": "2021-02-06T15:33:39.554Z",
+      "name": "Tsuyu Asui",
+      "avatar": "https://i.pinimg.com/474x/1c/6b/68/1c6b684e4a14c92446f64a1e99af1fa9.jpg"
+    },
+    {
+      "id": "8",
+      "createdAt": "2021-02-06T14:40:54.557Z",
+      "name": "Momo Yaoyorozu",
+      "avatar": "https://images.adagio.com/images2/custom_blends/173033.jpg"
+    },
+    {
+      "id": "9",
+      "createdAt": "2021-02-06T21:42:23.045Z",
+      "name": "Tenya Iida",
+      "avatar": "https://1.bp.blogspot.com/-CQw5pIfoPpM/YLqS78X3iKI/AAAAAAAAA2w/G0sKY4m5eP0Gc_V-O4mFZpxsp1SUiRjQQCLcBGAsYHQ/s940/pic%2B1.PNG"
+    },
+    {
+      "id": "10",
+      "createdAt": "2021-02-07T12:13:19.029Z",
+      "name": "Kyoka Jiro",
+      "avatar": "https://i.pinimg.com/474x/73/23/2b/73232bd967c95c7608f9a465e0931f35.jpg"
+    }
+  ],
+  "boards": [
+    {
+      "id": "MAIN",
+      "title": "Main Board",
+      "sections": [
+        {
+          "id": "BACKLOG",
+          "title": "Backlog"
+        },
+        {
+          "id": "OPEN",
+          "title": "Open"
+        },
+        {
+          "id": "IN_PROGRESS",
+          "title": "In Progress"
+        },
+        {
+          "id": "DONE",
+          "title": "Done"
+        },
+        {
+          "id": "CLOSED",
+          "title": "Closed"
+        }
+      ]
+    },
+    {
+      "id": "DEVELOPMENT",
+      "title": "Development Board",
+      "sections": [
+        {
+          "id": "BACKLOG",
+          "title": "Backlog"
+        },
+        {
+          "id": "OPEN",
+          "title": "Open"
+        },
+        {
+          "id": "IN_PROGRESS",
+          "title": "In Progress"
+        },
+        {
+          "id": "DONE",
+          "title": "Done"
+        },
+        {
+          "id": "CLOSED",
+          "title": "Closed"
+        }
+      ]
+    }
+  ],
+  "me": {
+    "id": "1",
+    "createdAt": "2021-02-06T18:30:57.479Z",
+    "name": "Aizawa Shouta",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEj8LfvxV4pYW5JzSkM8ISHuWYV_qexCwIVIxTlOz8QCxnbGSVz6gZI2QX6vfdRS3I3GY&usqp=CAU"
+  },
+  "board_main_tasks": [
+    {
+      "tasks": [
+        {
+          "id": "f91805ce-c9f2-4bf6-b0c2-294a5a828644",
+          "title": "jihugyffgcvhbj",
+          "description": "jhgfhj",
+          "assignee": "4"
+        }
+      ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [],
+      "id": "OPEN"
+    },
+    {
+      "tasks": [],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [],
+      "id": "DONE"
+    },
+    {
+      "tasks": [],
+      "id": "CLOSED"
+    }
+  ],
+  "board_development_tasks": [
+    {
+      "tasks": [],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [],
+      "id": "OPEN"
+    },
+    {
+      "tasks": [],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [],
+      "id": "DONE"
+    },
+    {
+      "tasks": [],
+      "id": "CLOSED"
+    }
+  ]
+}

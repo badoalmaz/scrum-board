@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { createContext } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import RootStore from "./store";
+import { CssBaseline } from "@material-ui/core";
+
+const store = RootStore.create({});
+
+export const StoreContext = createContext(store);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StoreContext.Provider value={store}>
+    <CssBaseline />
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </StoreContext.Provider>,
+  document.getElementById("root") || document.createElement("div") // for testing purposes
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
